@@ -1,0 +1,10 @@
+name: Github-
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "This is the test-github actions pipeline"
+    - run: echo "welcome to github actions"
+    - run: echo "cloning the repo'
+    - name: checkout to repository branch code
+      uses: action/checkout@v4
+    - run: echo "list of the files"
+
